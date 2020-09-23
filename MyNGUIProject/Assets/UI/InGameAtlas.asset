@@ -14,8 +14,112 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: c51e2d92eeb079142946e1c83eb4dcb0, type: 2}
   mSprites:
+  - name: barToggle_centerOff
+    x: 376
+    y: 2
+    width: 63
+    height: 63
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 32
+    borderBottom: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: barToggle_centerOn
+    x: 376
+    y: 66
+    width: 63
+    height: 63
+    borderLeft: 31
+    borderRight: 32
+    borderTop: 32
+    borderBottom: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: barToggle_leftOff
+    x: 360
+    y: 130
+    width: 64
+    height: 63
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 32
+    borderBottom: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: barToggle_leftOn
+    x: 311
+    y: 61
+    width: 64
+    height: 63
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 32
+    borderBottom: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: barToggle_rightOff
+    x: 425
+    y: 131
+    width: 63
+    height: 62
+    borderLeft: 31
+    borderRight: 32
+    borderTop: 31
+    borderBottom: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: barToggle_rightOn
+    x: 388
+    y: 194
+    width: 63
+    height: 62
+    borderLeft: 31
+    borderRight: 32
+    borderTop: 31
+    borderBottom: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btnOuter
+    x: 281
+    y: 125
+    width: 78
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btnSmallGreen
+    x: 440
+    y: 91
+    width: 65
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: iconFence
-    x: 77
+    x: 0
     y: 139
     width: 147
     height: 117
@@ -29,7 +133,7 @@ MonoBehaviour:
     paddingBottom: 17
   - name: iconScore
     x: 0
-    y: 18
+    y: 49
     width: 88
     height: 89
     borderLeft: 0
@@ -41,7 +145,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: iconSling
-    x: 0
+    x: 204
     y: 108
     width: 76
     height: 148
@@ -54,14 +158,79 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: panel
-    x: 89
-    y: 76
+    x: 281
+    y: 194
     width: 106
     height: 62
     borderLeft: 53
     borderRight: 53
     borderTop: 31
     borderBottom: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: panel 1
+    x: 204
+    y: 45
+    width: 106
+    height: 62
+    borderLeft: 35
+    borderRight: 35
+    borderTop: 2147483647
+    borderBottom: 21354
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: panelBar
+    x: 148
+    y: 0
+    width: 55
+    height: 256
+    borderLeft: 0
+    borderRight: 35
+    borderTop: 30
+    borderBottom: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: titleCoins
+    x: 204
+    y: 12
+    width: 81
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: titleGems
+    x: 286
+    y: 13
+    width: 82
+    height: 31
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: titleUpgrades
+    x: 0
+    y: 11
+    width: 139
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
